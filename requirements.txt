@@ -1,0 +1,10 @@
+sentence-transformers
+PyPDF2
+nltk
+reportlab
+requests
+pdfplumber
+sumy
+pytesseract
+pdf2image
+Pillow

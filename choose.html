@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Question Types</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">AQ</div>
+        <h1>Choose Question Types</h1>
+        <p>Select the types of questions you want to generate</p>
+
+        <form action="/start" method="post" id="choose-form">
+            <div class="question-type">
+                <button type="button" data-type="mcq" class="btn mcq" title="Multiple Choice">MCQ</button>
+                <button type="button" data-type="fill_blanks" class="btn fill-blanks" title="Fill in the Blanks">Fill</button>
+                <button type="button" data-type="true_false" class="btn true-false" title="True / False">True/False</button>
+                <button type="button" data-type="short_answer" class="btn short-answer" title="Short Answer">Short</button>
+            </div>
+            <input type="hidden" name="question_type" id="question-type" value="">
+
+            <div class="action-buttons">
+                <button type="button" class="btn back" onclick="window.location.href='/'">← Back</button>
+                <button type="submit" class="btn generate">Generate →</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        (function() {
+            const typeButtons = document.querySelectorAll('.question-type .btn');
+            const hiddenType = document.getElementById('question-type');
+            const form = document.getElementById('choose-form');
+
+            typeButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    typeButtons.forEach(b => b.classList.remove('selected'));
+                    btn.classList.add('selected');
+                    hiddenType.value = btn.getAttribute('data-type');
+                });
+            });
+
+            form.addEventListener('submit', (e) => {
+                if (!hiddenType.value) {
+                    e.preventDefault();
+                    alert('Please select a question type.');
+                }
+            });
+        })();
+    </script>
+</body>
+</html>
+
+

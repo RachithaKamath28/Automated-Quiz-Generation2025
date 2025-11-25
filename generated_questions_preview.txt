@@ -1,0 +1,29 @@
+(Fill-in-the-Blank) _____ physical approach to image formation are based on conservation of energy.themostimportantincomputergraphicsisradiosity.thismethodworks 4.thismodelofimageformationwasusedbyleonardodavinci500yearsago .
+Answer: other
+
+(Fill-in-the-Blank) 1.7 _____ architecture ononesideoftheapiistheapplicationprogram.ontheothersideissomecom- bination of hardware and software that implement the functionality of the api .
+Answer: graphic
+
+(Fill-in-the-Blank) _____ the location of the center of projection , the location 1.6 theprogrammersinterface 21 figure1.18 imagingwiththesyntheticcamera .
+Answer: given
+
+(Fill-in-the-Blank) 1.2 _____ 5 1.1.4 user interface our interaction with computer ha become dominated by a visual paradigm that includes window , icon , menu , and a pointing device , such a a mouse .
+Answer: agraphicssystem
+
+(Fill-in-the-Blank) _____-generatedimagesaresyntheticorartificial , inthesensethattheob- jects being imaged may not exist physically .
+Answer: computer
+
+(Fill-in-the-Blank) _____ plate 13 show a scene from a computer-generated video .
+Answer: color
+
+(Fill-in-the-Blank) for _____ , if three vertex specify a triangle filled with a solid color , the rasterizer mustdeterminewhichpixelsintheframebufferareinsidethepolygon.wediscuss this rasterization ( or scan-conversion ) process in chapter 8 for line segment and polygon .
+Answer: example
+
+(Fill-in-the-Blank) _____ providespositionalinformationtothesystem , and_____usuallyisequippedwithone ormorebuttonstoprovidesignalstotheprocessor.oftencalledpointingdevices , thesedevicesallowausertoindicateaparticularlocationonthedisplay.westudy thesedevicesinchapter3 .
+Answer: each
+
+(Fill-in-the-Blank) 22 chapter1 _____ figure1.20 interfaceforapaintingprogram .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) _____ , aftermultiplestagesoftransformation , thegeometryistransformed byaprojectiontransformation.inchapter5 , weseethatwecanimplementthisstep using 4 4 matrix , and thus projection fit in the pipeline .
+Answer: eventually

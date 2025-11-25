@@ -1,0 +1,813 @@
+(Fill-in-the-Blank) _____ 1 1 chapter graphic system and model perhapsthedominantcharacteristicofthisnewmillenniumishowcomputerand communicationtechnologieshavebecomedominantforcesinourlives.activi- tiesaswide-rangingasfilmmaking , publishing , banking , andeducationcontinueto undergorevolutionarychangesasthesetechnologiesalterthewaysinwhichwecon- ductourdailyactivities.thecombinationofcomputers , network , andthecomplex humanvisualsystem , throughcomputergraphics , hasledtonewwaysofdisplaying information , seeingvirtualworlds , andcommunicatingwithpeopleandmachines .
+Answer: module
+
+(Fill-in-the-Blank) _____- agesusingacomputer.thefieldbeganhumblyalmost50yearsago , withthedisplay ofafewlinesonacathode-raytube ( crt ) ; now , wecancreateimagesbycomputer that are indistinguishable from photograph of real object .
+Answer: computergraphicsisconcernedwithallaspectsofproducingpicturesorim
+
+(Fill-in-the-Blank) we _____ train pi- lotswithsimulatedairplanes , generatinggraphicaldisplaysofavirtualenvironment inrealtime.feature-lengthmoviesmadeentirelybycomputerhavebeensuccessful , bothcriticallyandfinancially.massivemultiplayergamescaninvolvetensofthou- sandsofconcurrentparticipants .
+Answer: routinely
+
+(Fill-in-the-Blank) _____ we overview graphic system and imaging .
+Answer: then
+
+(Fill-in-the-Blank) _____ this book , our approach stress the relationship between computer graphic and imageformationbyfamiliarmethods , suchasdrawingbyhandandphotography.we willseethattheserelationshipscanhelpustodesignapplicationprograms , graphic library , andarchitecturesforgraphicssystems .
+Answer: throughout
+
+(Fill-in-the-Blank) _____ , weintroduceaparticulargraphicssoftwaresystem , opengl , which hasbecomeawidelyacceptedstandardfordevelopinggraphicsapplications.fortu- nately , opengliseasytolearn , anditpossessesmostofthecharacteristicsofother populargraphicssystems.ourapproachistop-down.wewantyoutostartwriting , asquicklyaspossible , applicationprogramsthatwillgenerategraphicaloutput.af- teryoubeginwritingsimpleprograms , wewilldiscusshowtheunderlyinggraphics libraryandthehardwareareimplemented.thischaptershouldgiveasufficientover- viewforyoutoproceedtowritingprograms .
+Answer: inthisbook
+
+(Fill-in-the-Blank) 1 2 chapter1 _____ 1.1 application of computer graphic thedevelopmentofcomputergraphicshasbeendrivenbothbytheneedsoftheuser communityandbyadvancesinhardwareandsoftware.theapplicationsofcomputer graphicsaremanyandvaried ; wecan , however , dividethemintofourmajorareas : 1. displayofinformation 2. design 3. simulationandanimation 4. userinterfaces althoughmanyapplicationsspantwoormoreoftheseareas , thedevelopmentofthe fieldwasbasedonseparateworkineach .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) 1.1.1 _____ of information classicalgraphicstechniquesaroseasamediumtoconveyinformationamongpeo- ple.althoughspokenandwrittenlanguagesserveasimilarpurpose , thehumanvi- sualsystemisunrivaledbothasaprocessorofdataandasapatternrecognizer.more than 4000 year ago , the babylonian _____ed floor plan of building on stone .
+Answer: display
+
+(Fill-in-the-Blank) _____ than 2000 year ago , the greek were able to convey their architectural idea graphically , even though the related mathematics wa not developed until the re- naissance.today , thesametypeofinformationisgeneratedbyarchitects , mechanical designer , anddraftspeopleusingcomputer-baseddraftingsystems .
+Answer: more
+
+(Fill-in-the-Blank) _____ , cartographershavedevelopedmapstodisplaycelestialandgeo- graphicalinformation.suchmapswerecrucialtonavigatorsasthesepeopleexplored theendsoftheearth ; mapsarenolessimportanttodayinfieldssuchasgeographic informationsystems.now , mapscanbedevelopedandmanipulatedinrealtimeover theinternet .
+Answer: forcenturies
+
+(Fill-in-the-Blank) overthepast150years , _____ for generating plot that aid the viewer in understanding the information in a set ofdata.now , wehavecomputerplottingpackagesthatprovideavarietyofplotting techniquesandcolortoolsthatcanhandlemultiplelargedatasets.nevertheless , it is still the human ability to recognize visual pattern that ultimately allows u to interprettheinformationcontainedinthedata.thefieldofinformationvisualiza- tionisbecomingincreasinglymoreimportantaswehavetodealwithunderstanding complexphenomenafromproblemsinbioinformaticstodetectingsecuritythreats .
+Answer: workersinthefieldofstatisticshaveexploredtechniques
+
+(Fill-in-the-Blank) _____-analysisproblems.mod- ernimagingtechnologiessuchascomputedtomography ( ct ) , magneticresonance imaging ( mri ) , ultrasound , and positron-emission tomography ( pet ) generate three-dimensionaldatathatmustbesubjectedtoalgorithmicmanipulationtopro- videusefulinformation.colorplate20showsanimageofapersonsheadinwhich the skin is displayed a transparent and the internal structure are displayed a opaque .
+Answer: medicalimagingposesinterestingandimportantdata
+
+(Fill-in-the-Blank) _____ the data were collected by a medical imaging system , computer graphicsproducedtheimagethatshowsthestructuralinformation .
+Answer: although
+
+(Fill-in-the-Blank) 1.1 _____ 3 supercomputer now allow researcher in many area to solve previously in- tractableproblems.thefieldofscientificvisualizationprovidesgraphicaltoolsthat helptheseresearchersinterpretthevastquantityofdatathattheygenerate.infields suchasfluidflow , molecularbiology , andmathematics , imagesgeneratedbyconver- sionofdatatogeometricentitiesthatcanbedisplayedhaveyieldednewinsightsinto complexprocesses.forexample , colorplate19showsfluiddynamicsinthemantle oftheearth.thesystemusedamathematicalmodeltogeneratethedata.thefieldof informationvisualizationusescomputergraphicstoaidinthediscoveryofrelation- shipsindatasetsinwhichthereisnophysicaltiebetweenthedataandhowtheyare visualized.wepresentvariousvisualizationtechniquesasexamplesthroughoutthe restofthetext .
+Answer: applicationsofcomputergraphics
+
+(Fill-in-the-Blank) 1.1.2 _____ professionssuchasengineeringandarchitectureareconcernedwith_____.starting withasetofspecifications , engineersandarchitectsseekacost-effectiveandesthetic solutionthatsatisfiesthespecifications._____isaniterativeprocess.rarelyinthe realworldisaproblemspecifiedsuchthatthereisauniqueoptimalsolution._____ problemsareeitheroverdetermined , suchthattheypossessnosolutionthatsatisfies all the criterion , much less an optimal solution , or underdetermined , such that they have multiple solution that satisfy the _____ criterion .
+Answer: design
+
+(Fill-in-the-Blank) _____ , the designer work iteratively .
+Answer: thus
+
+(Fill-in-the-Blank) she _____ a possible design , test it , and then us the result a the basisforexploringothersolutions .
+Answer: generates
+
+(Fill-in-the-Blank) _____ acrtwasrecognizedbyivansutherlandmorethan40yearsago.today , theuseof interactivegraphicaltoolsincomputer-aideddesign ( cad ) pervadesfieldsinclud- ingasarchitecture , mechanicalengineering , thedesignofvery-large-scaleintegrated ( vlsi ) circuit , and the creation of character for animation .
+Answer: thepoweroftheparadigmofhumansinteractingwithimagesonthescreenof
+
+(Fill-in-the-Blank) in all _____ applica- tions , the graphic are used in a number of distinct way .
+Answer: these
+
+(Fill-in-the-Blank) for _____ , in a vlsi design , thegraphicsprovideaninteractiveinterfacebetweentheuserandthedesign package , usually by mean of such tool a menu and icon .
+Answer: example
+
+(Fill-in-the-Blank) in _____ , after the userproducesapossibledesign , othertoolsanalyzethedesignanddisplaytheanaly- sisgraphically.colorplates9and10showtwoviewsofthesamearchitecturaldesign .
+Answer: addition
+
+(Fill-in-the-Blank) 1.1.3 _____ and animation once graphic system evolved to be capable of generating sophisticated image in real time , engineer and researcher began to use them a simulator .
+Answer: simulation
+
+(Fill-in-the-Blank) one of the _____ important us ha been in the training of pilot .
+Answer: most
+
+(Fill-in-the-Blank) _____ flight simula- torshaveprovedtoincreasesafetyandtoreducetrainingexpenses.theuseofspe- cial vlsi chip ha led to a generation of arcade game a sophisticated a flight simulator .
+Answer: graphical
+
+(Fill-in-the-Blank) _____- tion in the television , motion picture , and advertising industry .
+Answer: thesuccessofflightsimulatorsledtotheuseofcomputergraphicsforanima
+
+(Fill-in-the-Blank) _____ animated moviescannowbemadebycomputersatacostlessthanthatofmoviesmadewith traditionalhand-animationtechniques.theuseofcomputergraphicswithhandan- imationallowsthecreationoftechnicalandartisticeffectsthatarenotpossiblewith eitheralone.whereascomputeranimationshaveadistinctlook , wecanalsogenerate photorealisticimagesbycomputer.oftenimagesthatweseeontelevision , inmovies , andinmagazinesaresorealisticthatwecannotdistinguishcomputer-generatedor computer-alteredimagesfromphotographs.inchapters6and9 , wediscussmany of the lighting effect used to produce computer animation .
+Answer: entire
+
+(Fill-in-the-Blank) _____ plate 13 show a scene from a computer-generated video .
+Answer: color
+
+(Fill-in-the-Blank) the _____ and engineer who created thissceneusedcommerciallyavailablesoftware.theplatedemonstratesourability togeneraterealisticenvironments , inthiscaseaweldingrobotinsideafactory.the sparksdemonstratetheuseofproceduralmethodsforspecialeffects.wewilldiscuss thesetechniquesinchapter11.theimagesincolorplate31showanotherexample oftheuseofcomputergraphicstogenerateaneffectthat , althoughitlooksrealistic , couldnothavebeencreatedotherwise.theimagesincolorplates23and24alsoare realisticrenderings .
+Answer: artist
+
+(Fill-in-the-Blank) _____ ( vr ) hasopenedmanynewhorizons.ahumanviewer canbeequippedwithadisplayheadsetthatallowshertoseeseparateimageswithher righteyeandherlefteye , whichgivestheeffectofstereoscopicvision.inaddition , herbodylocationandposition , possiblyincludingherheadandfingerpositions , are trackedbythecomputer.shemayhaveotherinteractivedevicesavailable , including force-sensing glove and sound .
+Answer: thefieldofvirtualreality
+
+(Fill-in-the-Blank) she can _____ act a part of a computer-generated scene , limited only by the image-generation ability of the computer .
+Answer: then
+
+(Fill-in-the-Blank) for _____ , a surgical intern might be trained to do an operation in this way , or an astronaut might be trained to work in a weightless environment .
+Answer: example
+
+(Fill-in-the-Blank) _____ plate 22 show one frameofavrsimulationofasimulatedpatientusedforremotetrainingofmedical personnel .
+Answer: color
+
+(Fill-in-the-Blank) _____ commodity computer and specialized hardware box .
+Answer: thegraphicstodriveinteractivevideogamesmakeheavyuseofbothstandard
+
+(Fill-in-the-Blank) to a _____ degree , game drive the development of graphic hardware .
+Answer: large
+
+(Fill-in-the-Blank) on the _____ side , the revenue from video game ha surpassed the revenue for _____ film .
+Answer: commercial
+
+(Fill-in-the-Blank) the _____ technologyforgames , bothintheformofthe_____sprocessingunitsthatareon _____scardsinpersonalcomputersandingameboxessuchasthexboxandthe playstation , isbeingusedforsimulationratherthanexpensivespecializedhardware .
+Answer: graphic
+
+(Fill-in-the-Blank) _____ plate 16 is a frame from an interactive game , showing a robot warrior , that us hierarchical method ( chapter 10 ) , procedural method for smoke and fire ( chapter11 ) , andnoisetexturesforlandscapes ( chapter11 ) .theenginethatdrives thegameusesscenegraphsthatwepresentinchapter10 .
+Answer: color
+
+(Fill-in-the-Blank) 1.2 _____ 5 1.1.4 user interface our interaction with computer ha become dominated by a visual paradigm that includes window , icon , menu , and a pointing device , such a a mouse .
+Answer: agraphicssystem
+
+(Fill-in-the-Blank) _____ a user perspective , windowing system such a the x window system , microsoft window , and the macintosh o x differ only in detail .
+Answer: from
+
+(Fill-in-the-Blank) _____ recently , million of people have become internet user .
+Answer: more
+
+(Fill-in-the-Blank) _____ access is through graphical network browser , suchasfirefoxandinternetexplorer , thatusethesesameinterfacetools .
+Answer: their
+
+(Fill-in-the-Blank) 1.2 a _____ system a computer _____ system is a computer system ; a such , it must have all the componentsofageneral-purposecomputersystem.letusstartwiththehigh-level viewofa_____ssystem , asshownintheblockdiagraminfigure1.1.therearefive majorelementsinoursystem : 1. inputdevices 2. processor 3. memory 4. framebuffer 5. outputdevices thismodelisgeneralenoughtoincludeworkstationsandpersonalcomputers , inter- active game system , and sophisticated image-generation system .
+Answer: graphic
+
+(Fill-in-the-Blank) _____ all the component , withthepossibleexceptionoftheframebuffer , arepresentinastan- dardcomputer , itisthewayeachelementisspecializedforcomputergraphicsthat characterizesthisdiagramasaportraitofagraphicssystem .
+Answer: although
+
+(Fill-in-the-Blank) 1.2.1 _____ and the frame buffer presently , almost all graphic system are raster based .
+Answer: pixel
+
+(Fill-in-the-Blank) a _____ is produced a an arraythe rasterof _____ element , or pixel , within the graphic system .
+Answer: picture
+
+(Fill-in-the-Blank) a we can see _____ figure 1.2 , each pixel corresponds to a location , or small area , in 1.althoughpersonalcomputersandworkstationsevolvedbysomewhatdifferentpaths , presently , thereisvirtuallynofundamentaldifferencebetweenthem.hence , weusethetermspersonalcom- puterandworkstationsynonymously .
+Answer: from
+
+(Fill-in-the-Blank) 6 chapter1 _____ frame processor buffer memory figure1.1 agraphicssystem .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) _____ , the pixel are stored in a part of memory called the frame buffer.theframebuffercanbeviewedasthecoreelementofagraphicssystem.its resolutionthe number of pixel in the frame bufferdetermines the detail that youcanseeintheimage.thedepth , orprecision , oftheframebuffer , definedasthe numberofbitsthatareusedforeachpixel , determinespropertiessuchashowmany colorscanberepresentedonagivensystem.forexample , a1-bit-deepframebuffer allows only two color , whereas an 8-bit-deep frame buffer allows 28 ( 256 ) color .
+Answer: collectively
+
+(Fill-in-the-Blank) _____-colorsystems , thereare24 ( ormore ) bitsperpixel.suchsystemscandisplay sufficientcolorstorepresentmostimagesrealistically.theyarealsocalledtrue-color system , or rgb-color system , because individual group of bit in each pixel are 1.2 agraphicssystem 7 assigned to each of the three primary colorsred , green , and blueused in most display .
+Answer: infull
+
+(Fill-in-the-Blank) highdynamicrangeapplicationsrequiremorethan24-_____- resentationsofrgbcolors.somerecentframebuffersstorergbvaluesasfloating- pointnumbersinstandardieeeformat.hence , thetermtruecolor shouldbeinter- pretedasframebuffersthathavesufficientdepthtorepresentcolorsintermsofrgb valuesratherthanasindicesintoalimitedsetofcolors.wewillreturntothistopic inchapter2 .
+Answer: bitfixedpointcolorrep
+
+(Fill-in-the-Blank) _____ enablefastredisplayofthecontentsoftheframebuffer.insoftware-basedsystems , such a those used for high-resolution rendering or for generating complex visual effect that can not be produced in real time , the frame buffer is part of system memory .
+Answer: theframebufferusuallyisimplementedwithspecialtypesofmemorychipsthat
+
+(Fill-in-the-Blank) _____ , theframebufferholdsonlythecoloredpixelsthatare displayedonthescreen.inmostsystems , theframebufferholdsfarmoreinforma- tion , suchasdepthinformationneededforcreatingimagesfromthree-dimensional data.inthesesystems , theframebuffercomprisesmultiplebuffers , oneormoreof whicharecolorbuffersthatholdthecoloredpixelsthataredisplayed.fornow , we canusethetermsframebufferandcolorbuffersynonymouslywithoutconfusion .
+Answer: inaverysimplesystem
+
+(Fill-in-the-Blank) _____ , theremaybeonlyoneprocessor , thecentralprocessingunit ( cpu ) ofthesystem , whichmustdoboththenormalprocessingandthegraphical processing.themaingraphicalfunctionoftheprocessoristotakespecificationsof graphical primitive ( such a line , circle , and polygon ) generated by application program and to assign value to the pixel in the frame buffer that best represent theseentities.forexample , atriangleisspecifiedbyitsthreevertices , buttodisplay it outline by the three line segment connecting the vertex , the graphic system mustgenerateasetofpixelsthatappearaslinesegmentstotheviewer.theconver- sionofgeometricentitiestopixelcolorsandlocationsintheframebufferisknown asrasterization , orscanconversion.inearlygraphicssystems , theframebufferwas partofthestandardmemorythatcouldbedirectlyaddressedbythecpu.today , vir- tuallyallgraphicssystemsarecharacterizedbyspecial-purposegraphicsprocessing unit ( gpus ) , custom-tailoredtocarryoutspecificgraphicsfunctions.thegpucan beeitheronthemotherboardofthesystemoronagraphicscard.theframebuffer isaccessedthroughthegraphicsprocessingunitandmaybeincludedinthegpu .
+Answer: inasimplesystem
+
+(Fill-in-the-Blank) 1.2.2 _____ device for many year , the dominant type of display ( or monitor ) ha been the cathode- ray tube ( crt ) .
+Answer: output
+
+(Fill-in-the-Blank) _____ various flat-panel technology are now more popular , the basic functioning of the crt ha much in common with these newer display .
+Answer: although
+
+(Fill-in-the-Blank) a _____ picture of a crt is shown in figure 1.3. when electron strike the phosphorcoatingonthetube , lightisemitted.thedirectionofthebeamiscontrolled bytwopairsofdeflectionplates.theoutputofthecomputerisconverted , bydigital- to-analogconverters , tovoltagesacrossthex andy deflectionplates.lightappears 8 chapter1 graphicssystemsandmodels y deflect electron gun x deflect phosphor focus figure1.3 thecathode-raytube ( crt ) .
+Answer: simplified
+
+(Fill-in-the-Blank) _____ , thebeamwilltrace a straight line , visible to a viewer .
+Answer: ifthevoltagessteeringthebeamchangeataconstantrate
+
+(Fill-in-the-Blank) _____ a device is known a the random-scan , calligraphic , or vector crt , because the beam can be moved directly from any positiontoanyotherposition.iftheintensityofthebeamisturnedoff , thebeamcan bemovedtoanewpositionwithoutchanginganyvisibledisplay.thisconfiguration wasthebasisofearlygraphicssystemsthatpredatedthepresentrastertechnology .
+Answer: such
+
+(Fill-in-the-Blank) _____ , afewmilliseconds after the phosphor is excited by the electron beam .
+Answer: atypicalcrtwillemitlightforonlyashorttimeusually
+
+(Fill-in-the-Blank) for a _____ to see a steady , flicker-free image on most crt display , the same path must be retraced , or re- freshed , by the beam at a sufficiently high rate , the refreshrate .
+Answer: human
+
+(Fill-in-the-Blank) in _____ system , therefreshrateisdeterminedbythefrequencyofthepowersystem,60cyclespersec- ondor60hertz ( hz ) intheunitedstatesand50hzinmuchoftherestoftheworld .
+Answer: older
+
+(Fill-in-the-Blank) in a _____ system , the graphic system take pixel from the frame buffer and displaysthemaspointsonthesurfaceofthedisplayinoneoftwofundamentalways .
+Answer: raster
+
+(Fill-in-the-Blank) in a _____ or progressive display , the pixel are displayed row by row , or scanlinebyscanline , attherefreshrate.inaninterlaceddisplay , oddrowsandeven rowsarerefreshedalternately.interlaceddisplaysareusedincommercialtelevision .
+Answer: noninterlaced
+
+(Fill-in-the-Blank) inaninterlaceddisplayoperatingat60hz , _____ 30timespersecond , althoughthevisualsystemistrickedintothinkingtherefresh rateis60hzratherthan30hz.viewerslocatednearthescreen , however , cantellthe differencebetweentheinterlacedandnoninterlaceddisplays.noninterlaceddisplays arebecomingmorewidespread , eventhoughthesedisplaysprocesspixelsattwicethe rateofinterlaceddisplays .
+Answer: thescreenisredrawninitsentiretyonly
+
+(Fill-in-the-Blank) _____ crt have three different _____ed phosphor ( red , green , and blue ) , ar- ranged in small group .
+Answer: color
+
+(Fill-in-the-Blank) one _____ style arranges the phosphor in triangular groupscalledtriads , eachtriadconsistingofthreephosphors , oneofeachprimary .
+Answer: common
+
+(Fill-in-the-Blank) 1.2 _____ 9 blue gun triad green red green gun blue red gun shadow mask figure1.4 shadow-maskcrt .
+Answer: agraphicssystem
+
+(Fill-in-the-Blank) _____ grid light emitting element horizontal grid figure1.5 genericflat-paneldisplay .
+Answer: vertical
+
+(Fill-in-the-Blank) _____ crt are still the most common display device , they are rapidly be- ing replaced by flat-screen technology .
+Answer: although
+
+(Fill-in-the-Blank) _____-panel monitor are inherently raster .
+Answer: flat
+
+(Fill-in-the-Blank) _____ there are multiple technology available , including light-emitting diode ( led ) , liquid-crystaldisplays ( lcd ) , andplasmapanels , alluseatwo-dimensional grid to address individual light-emitting element .
+Answer: although
+
+(Fill-in-the-Blank) _____ 1.5 show a generic flat- panelmonitor.thetwooutsideplatescontainparallelgridsofwiresthatareoriented perpendiculartoeachother.bysendingelectricalsignalstotheproperwireineach grid , theelectricalfieldatalocation , determinedbytheintersectionoftwowires , can be made strong enough to control the corresponding element in the middle plate .
+Answer: figure
+
+(Fill-in-the-Blank) _____-emittingdiodesthatcanbeturned onandoffbytheelectricalsignalssenttothegrid.inanlcddisplay , theelectrical fieldcontrolsthepolarizationoftheliquidcrystalsinthemiddlepanel , thusturning onandoffthelightpassingthroughthepanel.aplasmapanelusesthevoltageson thegridstoenergizegasesembeddedbetweentheglasspanelsholdingthegrids.the energizedgasbecomesaglowingplasma .
+Answer: themiddleplateinanledpanelcontainslight
+
+(Fill-in-the-Blank) 10 chapter1 _____ most projection system are also raster device .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) _____ system use a variety of technology , includingcrtsanddigitallightprojection ( dlp ) .fromauserperspec- tive , theyactasstandardmonitorswithsimilarresolutionsandprecisions.hard-copy device , suchasprintersandplotters , arealsorasterbasedbutcannotberefreshed .
+Answer: these
+
+(Fill-in-the-Blank) _____ recently , most display had a 4:3 width to height ratio ( or aspectratio ) thatcorrespondedstocommercialtelevision.indiscreteterms , displaysstartedwith vgaresolutionof640480pixels , whichwasconsistentwiththenumberoflines displayedinstandardntscvideo.2computerdisplaysmoveduptothepopularres- olutionsof1024768 ( xga ) and12801024 ( sxga ) .thenewerhighdefinition television ( hdtv ) standardusesa16:9aspectratio , whichisbetweentheoldertele- visionaspectratioandthatofmovies.hdtvmonitorsdisplay780or1080linesin eitherprogressive ( 1080p,780p ) orinterlaced ( 1080i,780i ) modes.hence , themost popularcomputerdisplayresolutionsarenow19201080and1280720 , which havethehdtvaspectratio , and19201024and1280768 , whichhavetheverti- calresolutionofxgaandsxgadisplays.atthehighend , therearenow4k ( 4096 2160 ) digitalprojectorsthataresuitableforcommercialdigitalmovies .
+Answer: until
+
+(Fill-in-the-Blank) 1.2.3 _____ device mostgraphicssystemsprovideakeyboardandatleastoneother_____device.the most common _____ device are the mouse , the joystick , and the data tablet .
+Answer: input
+
+(Fill-in-the-Blank) _____ providespositionalinformationtothesystem , and_____usuallyisequippedwithone ormorebuttonstoprovidesignalstotheprocessor.oftencalledpointingdevices , thesedevicesallowausertoindicateaparticularlocationonthedisplay.westudy thesedevicesinchapter3 .
+Answer: each
+
+(Fill-in-the-Blank) a _____ console might have multiple button , a joystick , anddials.devicessuchasthenintendowiiarewirelessandcansenseaccelerations inthreedimensions .
+Answer: typical
+
+(Fill-in-the-Blank) _____ , cad , and virtual reality application have all generated the need for inputdevicesthatprovidemorethantwo-dimensionaldata.three-dimensionallo- cationsonareal-worldobjectcanbeobtainedbyavarietyofdevices , includinglaser rangefindersandacousticsensors.higher-dimensionaldatacanbeobtainedbyde- vicessuchasdatagloves , whichincludemanysensors , andcomputervisionsystems .
+Answer: game
+
+(Fill-in-the-Blank) 1.3 _____ : physical and synthetic the traditional pedagogical approach to teaching computer graphic ha been fo- cused on how to construct raster _____ of simple two-dimensional geometric en- tities ( for example , point , line segment , and polygon ) in the frame buffer .
+Answer: image
+
+(Fill-in-the-Blank) _____ , most textbook discussed how to define two- and three-dimensional mathematical 2.outsidetheunitedstates , thepalandsecamsystemsdisplaymorelinesbutusealowerframe rate .
+Answer: next
+
+(Fill-in-the-Blank) 1.3 _____ : physicalandsynthetic 11 objectsinthecomputerand_____themwiththesetoftwo-dimensionalrasterized primitive .
+Answer: image
+
+(Fill-in-the-Blank) _____.inmod- ernsystems , however , wewanttoexploitthecapabilitiesofthesoftwareandhardware to create realistic image of computer-generated three-dimensional objectsa task thatinvolvesmanyaspectsofimageformation , suchaslighting , shading , andprop- ertiesofmaterials.becausesuchfunctionalityissupporteddirectlybymostpresent computergraphicssystems , weprefertosetthestageforcreatingtheseimageshere , ratherthantoexpandalimitedmodellater .
+Answer: thisapproachworkedwellforcreatingsimpleimagesofsimpleobjects
+
+(Fill-in-the-Blank) _____-generatedimagesaresyntheticorartificial , inthesensethattheob- jects being imaged may not exist physically .
+Answer: computer
+
+(Fill-in-the-Blank) in _____ chapter , we argue that the pre- ferredmethodtoformcomputer-generatedimagesissimilartotraditionalimaging method , such a camera and the human visual system .
+Answer: this
+
+(Fill-in-the-Blank) _____ , before we discus themechanicsofwritingprogramstogenerateimages , wediscussthewayimagesare formedbyopticalsystems.weconstructamodeloftheimage-formationprocessthat wecanthenusetounderstandanddevelopcomputer-generatedimagingsystems .
+Answer: hence
+
+(Fill-in-the-Blank) in _____ chapter , we make minimal use of mathematics .
+Answer: this
+
+(Fill-in-the-Blank) we _____ to establish a paradigmforcreatingimagesandtopresentacomputerarchitectureforimplement- ingthatparadigm.detailsarepresentedinsubsequentchapters , wherewewillderive therelevantequations .
+Answer: want
+
+(Fill-in-the-Blank) 1.3.1 _____ and viewer weliveinaworldofthree-dimensional_____s.thedevelopmentofmanybranches of mathematics , including geometry and trigonometry , wa in response to the de- siretosystematizeconceptuallysimpleideas , suchasthemeasurementofthesizeof _____sandthedistancebetween_____s.oftenweseektorepresentourunderstand- ing of such spatial relationship with picture or image , such a map , painting , and photograph .
+Answer: object
+
+(Fill-in-the-Blank) _____ , the development of many physical devicesincluding camera , microscope , andtelescopeswastiedtothedesiretovisualizespatialre- lationshipsamongobjects.hence , therealwayshasbeenafundamentallinkbetween thephysicsandthemathematicsofimageformationonethatwecanexploitinour developmentofcomputerimageformation .
+Answer: likewise
+
+(Fill-in-the-Blank) two _____ entity must be part of any image-formation process , be it mathe- maticalorphysical : object andviewer.theobjectexistsinspaceindependentofany image-formation process and of any viewer .
+Answer: basic
+
+(Fill-in-the-Blank) in _____ graphic , where we deal withsyntheticobjects , weformobjectsbyspecifyingthepositionsinspaceofvarious geometricprimitives , suchaspoints , line , andpolygons.inmostgraphicssystems , asetoflocationsinspace , orofvertices , issufficienttodefine , orapproximate , most objects.forexample , alinecanbespecifiedbytwovertices ; apolygoncanbespecified byanorderedlistofvertices ; andaspherecanbespecifiedbytwoverticesthatgiveits centerandanypointonitscircumference.oneofthemainfunctionsofacadsys- temistoprovideaninterfacethatmakesiteasyforausertobuildasyntheticmodel oftheworld.inchapter2 , weshowhowopenglallowsustobuildsimpleobjects ; inchapter11 , welearntodefineobjectsinamannerthatincorporatesrelationships amongobjects .
+Answer: computer
+
+(Fill-in-the-Blank) 12 chapter1 _____ c b ( a ) ( b ) ( c ) figure1.6 imageseenbythreedifferentviewers . ( a ) asview .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) _____ , theimageisformedonthebackoftheeye.inacamera , the image is formed in the film plane .
+Answer: inthehumanvisualsystem
+
+(Fill-in-the-Blank) it is _____ to confuse image and object .
+Answer: easy
+
+(Fill-in-the-Blank) we _____ , located inotherplaces , willseethesameobjectdifferently.figure1.6 ( a ) showstwoviewers observingthesamebuilding.thisimageiswhatisseenbyanobserverawhoisfar enoughawayfromthebuildingtoseeboththebuildingandthetwootherviewers , bandc.fromasperspective , bandcappearasobjects , justasthebuildingdoes .
+Answer: usuallyseeanobjectfromoursingleperspectiveandforgetthatotherviewers
+
+(Fill-in-the-Blank) figure1.7showsacamerasystemviewingabuilding._____ both the object and the viewer exist in a three-dimensional world .
+Answer: herewecanobservethat
+
+(Fill-in-the-Blank) _____ , the image that they definewhat we find on the film planeis two dimensional .
+Answer: however
+
+(Fill-in-the-Blank) the _____ the viewer to produce a two-dimensional image is the essence of image formation , andwewillstudyitindetail .
+Answer: processbywhichthespecificationoftheobjectiscombinedwiththespecificationof
+
+(Fill-in-the-Blank) 1.3.2 _____ and image theprecedingdescriptionofimageformationisfarfromcomplete.forexample , we haveyettomention_____.iftherewereno_____sources , theobjectswouldbedark , andtherewouldbenothingvisibleinourimage.norhaveweindicatedhowcolor entersthepictureorwhattheeffectsofthesurfacepropertiesoftheobjectsare .
+Answer: light
+
+(Fill-in-the-Blank) _____ , wecanstartwiththearrangementshownin figure1.8 , whichshowsasimplephysicalimagingsystem.again , weseeaphysical objectandaviewer ( thecamera ) ; now , however , thereisalightsourceinthescene .
+Answer: takingamorephysicalapproach
+
+(Fill-in-the-Blank) _____ from the source strike various surface of the object , and a portion of the reflected _____ enters the camera through the lens .
+Answer: light
+
+(Fill-in-the-Blank) the _____ of the interaction between light and the surface of the object determine how much light enters the camera .
+Answer: detail
+
+(Fill-in-the-Blank) 1.3 _____ : physicalandsynthetic 13 figure1.8 acamerasystemwithanobjectandalightsource .
+Answer: image
+
+(Fill-in-the-Blank) x ray _____ radio ( cid:2 ) ( nm ) blue green red 350 ( cid:2 ) ( nm ) 780 figure1.9 theelectromagneticspectrum .
+Answer: light
+
+(Fill-in-the-Blank) _____.electromagneticenergytravelsas wavesthatcanbecharacterizedbyeithertheirwavelengthsortheirfrequencies.3the electromagnetic spectrum ( figure 1.9 ) includes radio wave , infrared ( heat ) , and a portionthatcausesaresponseinourvisualsystems.thisvisiblespectrum , which haswavelengthsintherangeof350to780nanometers ( nm ) , iscalled ( visible ) light .
+Answer: lightisaformofelectromagneticradiation
+
+(Fill-in-the-Blank) a _____ light source ha a color determined by the energy that it emits at various wavelength .
+Answer: given
+
+(Fill-in-the-Blank) _____ in the middle of the range , around 520 nm , are seen a green ; thosenear450nmareseenasblue ; andthosenear650nmareseenasred.just aswitharainbow , lightat_____sbetweenredandgreenweseeasyellow , and _____sshorterthanbluegeneratevioletlight .
+Answer: wavelength
+
+(Fill-in-the-Blank) 14 chapter1 _____ emitsenergyoverarangeoffrequencies.fortunately , incomputergraphics , except forrecognizingthatdistinctfrequenciesarevisibleasdistinctcolors , werarelyneed todealwiththephysicalpropertiesoflight , suchasitswavenature .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) _____ , wecanfollowamoretraditionalpaththatiscorrectwhenweareoperat- ingwithsufficientlyhighlightlevelsandatascalewherethewavenatureoflightisnot asignificantfactor.geometricopticsmodelslightsourcesasemittersoflightenergy , eachofwhichhaveafixedintensity.modeledgeometrically , lighttravelsinstraight line , fromthesourcestothoseobjectswithwhichitinteracts.anidealpointsource emitsenergyfromasinglelocationatoneormorefrequenciesequallyinalldirec- tions.morecomplexsources , suchasalightbulb , canbecharacterizedasemitting lightoveranareaandbyemittingmorelightinonedirectionthananother.apartic- ularsourceischaracterizedbytheintensityoflightthatitemitsateachfrequencyand bythatlightsdirectionality.weconsideronlypointsourcesfornow.morecomplex source often can be approximated by a number of carefully placed point source .
+Answer: instead
+
+(Fill-in-the-Blank) 1.3.3 _____ formation model there are multiple approach to how we can form _____ from a set of object , thelight-reflectingpropertiesoftheseobjects , andthepropertiesofthelightsources inthescene.inthissection , weintroducetwophysicalapproaches.althoughthese approachesarenotsuitableforthereal-timegraphicsthatweultimatelywant , they willgiveusinsightintohowwecanbuildausefulimagingarchitecture .
+Answer: image
+
+(Fill-in-the-Blank) _____.con- siderthesceneillustratedinfigure1.10 ; itisilluminatedbyasinglepointsource.we includetheviewerinthefigurebecauseweareinterestedinthelightthatreachesher eye.theviewercanalsobeacamera , asshowninfigure1.11.arayisasemi-infinite linethatemanatesfromapointandtravelstoinfinityinaparticulardirection.be- causelighttravelsinstraightlines , wecanthinkintermsofraysoflightemanatingin alldirectionsfromourpointsource.aportionoftheseinfiniterayscontributestothe figure1.10 scenewithasinglepointlightsource .
+Answer: wecanstartbuildinganimagingmodelbyfollowinglightfromasource
+
+(Fill-in-the-Blank) 1.3 _____ : physicalandsynthetic 15 b c d a figure 1.11 ray interaction .
+Answer: image
+
+(Fill-in-the-Blank) ray a _____ camera directly .
+Answer: enters
+
+(Fill-in-the-Blank) _____.forexample , ifthesourceisvisiblefromthe camera , someoftheraysgodirectlyfromthesourcethroughthelensofthecamera , andstrikethefilmplane.mostrays , however , goofftoinfinity , neitherenteringthe cameradirectlynorstrikinganyoftheobjects.theserayscontributenothingtothe image , althoughtheymaybeseenbysomeotherviewer.theremainingraysstrike and illuminate object .
+Answer: imageonthefilmplaneofourcamera
+
+(Fill-in-the-Blank) _____ ray can interact with the object surface in a vari- etyofways.forexample , ifthesurfaceisamirror , areflectedraymightdepending ontheorientationofthesurfaceenterthelensofthecameraandcontributetothe image.othersurfacesscatterlightinalldirections.ifthesurfaceistransparent , the light ray from the source can pas through it and may interact with other object , enterthecamera , ortraveltoinfinitywithoutstrikinganothersurface.4figure1.11 showssomeofthepossibilities .
+Answer: these
+
+(Fill-in-the-Blank) _____ physical approach to image formation are based on conservation of energy.themostimportantincomputergraphicsisradiosity.thismethodworks 4.thismodelofimageformationwasusedbyleonardodavinci500yearsago .
+Answer: other
+
+(Fill-in-the-Blank) 16 chapter1 _____ bestforsurfacesthatscattertheincominglightequallyinalldirections.eveninthis case , radiosityrequiresmorecomputationthancanbedoneinrealtime .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) _____-timegraphics , weusually aresatisfiedwithimagesthatlookreasonableratherthanimagesthatarephysically correct.suchisnotthecasewithimagesthatarenonreal-time , suchasthosegen- eratedforafeaturefilm , whichcanusehoursofcomputertimeforeachframe.with theincreasedspeedofpresenthardware , wecangetclosertophysicallycorrectimages inreal-timesystems.consequently , wewillreturntotheseapproachesinchapter13 .
+Answer: giventhetimeconstraintsinimageformationbyreal
+
+(Fill-in-the-Blank) 1.4 _____ system wenowintroducetwophysical_____systems : thepinholecameraandthehuman visualsystem.thepinholecameraisasimpleexampleofan_____systemthatwill enableustounderstandthefunctioningofcamerasandofotheropticalimagers.we emulateittobuildamodelofimageformation.thehumanvisualsystemisextremely complexbutstillobeysthephysicalprinciplesofotheroptical_____systems.we introduce it not only a an example of an _____ system but also because under- standing it property will help u to exploit the capability of computer-graphics system .
+Answer: imaging
+
+(Fill-in-the-Blank) 1.4.1 the _____ camera the_____camerashowninfigure1.12providesanexampleofimageformation thatwecanunderstandwithasimplegeometricmodel.a_____cameraisabox withasmallholeinthecenterofonesideofthebox ; thefilmisplacedinsidethebox onthesideoppositethe_____.initially , the_____iscovered.itisuncoveredfor ashorttimetoexposethefilm.supposethatweorientourcameraalongthez-axis , withthe_____attheoriginofourcoordinatesystem.weassumethattheholeis sosmallthatonlyasinglerayoflight , emanatingfromapoint , canenterit.thefilm planeislocatedadistancedfromthe_____.asideview ( figure1.13 ) allowsusto y x ( x , y , z ) z ( x , y , z ) p p p d figure1.12 _____camera .
+Answer: pinhole
+
+(Fill-in-the-Blank) 1.4 _____ 17 y ( y , z ) z ( y , ( cid:3 ) d ) p d figure1.13 sideviewofpinholecamera .
+Answer: imagingsystems
+
+(Fill-in-the-Blank) _____ ( x , y , z ) isonthefilmplane zd.using the fact that the two triangle shown in figure 1.13 are similar , we find that the y coordinateoftheimageisaty , where p y y .
+Answer: calculatewheretheimageofthepoint
+
+(Fill-in-the-Blank) p zd _____ , usingatopview , yield x x .
+Answer: asimilarcalculation
+
+(Fill-in-the-Blank) p zd the _____ ( x , y , d ) is called the projection of the _____ ( x , y , z ) .
+Answer: point
+
+(Fill-in-the-Blank) _____ that all p p pointsalongthelinebetween ( x , y , z ) and ( x , y , d ) projectto ( x , y , d ) sothat p p p p wecannotgobackwardfromapointintheimageplanetothepointthatproduced it.inouridealizedmodel , thecoloronthefilmplaneatthispointwillbethecolorof thepoint ( x , y , z ) .thefield , orangle , ofviewofourcameraistheanglemadebythe largestobjectthatourcameracanimageonitsfilmplane.wecancalculatethefield ofviewwiththeaidoffigure1.14.5ifhistheheightofthecamera , thentheangleof view is 2tan 1 h .
+Answer: note
+
+(Fill-in-the-Blank) 2d _____ : everypointwithinitsfield ofviewisinfocus , regardlessofhowfaritisfromthecamera.theimageofapoint isapoint.thepinholecamerahastwodisadvantages.first , becausethepinholeis sosmallitadmitsonlyasinglerayfromapointsourcealmostnolightentersthe camera.second , thecameracannotbeadjustedtohaveadifferentangleofview .
+Answer: theidealpinholecamerahasaninfinitedepthoffield
+
+(Fill-in-the-Blank) 18 chapter1 _____ y ( cid:4 ) h z d figure1.14 angleofview .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) the _____ the aperture of the lens , the more light the lens can collect .
+Answer: larger
+
+(Fill-in-the-Blank) for our _____ , in this chapter , we can work with a pinhole camera whose cornea retina focallengthisthedistancedfromthefrontofthecameratothefilmplane.likethe pinholecamera , computergraphicsproducesimagesinwhichallobjectsareinfocus .
+Answer: purpose
+
+(Fill-in-the-Blank) _____ iris rod and cone 1.4.2 the human visual system ourextremelycomplexvisualsystemhasallthecomponentsofaphysicalimaging optic nerve system , such a a camera or a microscope .
+Answer: lens
+
+(Fill-in-the-Blank) the _____ component of the visual figure 1.15 the human systemareshowninfigure1.15.lightenterstheeyethroughthelensandcornea , visualsystem .
+Answer: major
+
+(Fill-in-the-Blank) _____.theirisopensandclosestoadjustthe amount of light entering the eye .
+Answer: atransparentstructurethatprotectstheeye
+
+(Fill-in-the-Blank) the _____ form an image on a two-dimensional structure called the retina at the back of the eye .
+Answer: lens
+
+(Fill-in-the-Blank) the rod and _____ ( so named because of their appearance when magnified ) are light sensor and are located on theretina.theyareexcitedbyelectromagneticenergyintherangeof350to780nm .
+Answer: cone
+
+(Fill-in-the-Blank) _____-level-lightsensorsthataccountforournightvisionandarenot colorsensitive ; theconesareresponsibleforourcolorvision.thesizesoftherods andcones , coupledwiththeopticalpropertiesofthelensandcornea , determinethe resolutionofourvisualsystems , orourvisualacuity.resolutionisameasureofwhat sizeobjectswecansee.moretechnically , itisameasureofhowclosewecanplacetwo pointsandstillrecognizethattherearetwodistinctpoints .
+Answer: therodsarelow
+
+(Fill-in-the-Blank) _____ wavelengths.therearethreetypesofconesandasingletypeofrod.whereasintensity is a physical measure of light energy , brightness is a measure of how intense we 1.5 thesynthetic-cameramodel 19 perceivethelightemittedfromanobjecttobe.thehumanvisualsystemdoesnot have the same response to a monochromatic ( single-frequency ) red light a to a monochromatic green light .
+Answer: thesensorsinthehumaneyedonotreactuniformlytolightenergyatdifferent
+
+(Fill-in-the-Blank) if _____ two light were to emit the same energy , they would appear to u to have different brightness , because of the unequal response of the cone to red and green light .
+Answer: these
+
+(Fill-in-the-Blank) we are _____ sensitive to green light , and least sensitivetoredandblue .
+Answer: most
+
+(Fill-in-the-Blank) _____.human color-vision capability are due to the different sensitivity of the three type of cones.themajorconsequenceofhavingthreetypesofconesisthatinsteadofhaving toworkwithallvisiblewavelengthsindividually , wecanusethreestandardprimaries toapproximateanycolorthatwecanperceive.consequently , mostimage-production system , includingfilmandvideo , workwithjustthreebasic , orprimary , colors.we discusscolorindepthinchapter2 .
+Answer: brightnessisanoverallmeasureofhowwereacttotheintensityoflight
+
+(Fill-in-the-Blank) _____ principle used by most optical system .
+Answer: theinitialprocessingoflightinthehumanvisualsystemisbasedonthesame
+
+(Fill-in-the-Blank) _____ , the human visual system ha a back end much more complex than that of a camera or telescope .
+Answer: however
+
+(Fill-in-the-Blank) the _____ nerve is connected to the rod and cone in an extremely complex arrangement that ha manyofthecharacteristicsofasophisticatedsignalprocessor.thefinalprocessing is done in a part of the brain called the visual cortex , where high-level function , suchasobjectrecognition , arecarriedout.wewillomitanydiscussionofhigh-level processing ; instead , wecanthinksimplyintermsofanimagethatisconveyedfrom therodsandconestothebrain .
+Answer: optic
+
+(Fill-in-the-Blank) 1.5 the _____-camera model our model of optical imaging system lead directly to the conceptual foundation formodernthree-dimensionalcomputergraphics.welookatcreatingacomputer- generatedimageasbeingsimilartoforminganimageusinganopticalsystem.this paradigmhasbecomeknownasthe_____-cameramodel.considertheimaging system shown in figure 1.16. again we see object and a viewer .
+Answer: synthetic
+
+(Fill-in-the-Blank) in _____ case , the viewer is a bellow camera.6 the image is formed on the film plane at the back of thecamera.sothatwecanemulate_____processtocreateartificialimages , weneedto identifyafewbasicprinciples .
+Answer: this
+
+(Fill-in-the-Blank) _____ , the specification of the object is independent of the specification of the viewer.hence , weshouldexpectthat , withinagraphicslibrary , therewillbeseparate functionsforspecifyingtheobjectsandtheviewer .
+Answer: first
+
+(Fill-in-the-Blank) 6. in a _____ camera , the front of the camera , where the lens is located , and the back of the camera , thefilmplane , areconnectedbyflexiblesides.thus , wecanmovethebackofthecamera independentlyofthefrontofthecamera , introducingadditionalflexibilityintheimage-formation process.weusethisflexibilityinchapter5 .
+Answer: bellow
+
+(Fill-in-the-Blank) 20 chapter1 _____ figure1.16 imagingsystem .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) y y _____ ( y , z ) ( y , z ) projector ( y p , d ) object z z cop ( y , ( cid:3 ) d ) p ( a ) ( b ) figure1.17 equivalentviewsofimageformation .
+Answer: camera
+
+(Fill-in-the-Blank) _____ that the image of the object is flipped relative to the object .
+Answer: note
+
+(Fill-in-the-Blank) _____ with a real camera , we would simply flip the film to regain the original orientation of the object , withoursyntheticcamerawecanavoidtheflippingbyasimpletrick.wedraw anotherplaneinfrontofthelens ( figure1.17 ( b ) ) , andworkinthreedimensions , a showninfigure1.18.wefindtheimageofapointontheobjectonthevirtualimage planebydrawingaline , calledaprojector , fromthepointtothecenterofthelens , or thecenterofprojection ( cop ) .notethatallprojectorsareraysemanatingfromthe centerofprojection.inoursyntheticcamera , thevirtualimageplanethatwehave movedinfrontofthelensiscalledtheprojectionplane.theimageofthepointis located where the projector pass through the projection plane .
+Answer: whereas
+
+(Fill-in-the-Blank) in _____ 5 , we discussthisprocessindetailandderivetherelevantmathematicalformulas .
+Answer: chapter
+
+(Fill-in-the-Blank) _____.aswesaw , notallobjects canbeimagedontothepinholecamerasfilmplane.theangleofviewexpressesthis limitation.inthesyntheticcamera , wecanmovethislimitationtothefrontbyplac- ingaclippingrectangle , orclippingwindow , intheprojectionplane ( figure1.19 ) .
+Answer: wemustalsoconsiderthelimitedsizeoftheimage
+
+(Fill-in-the-Blank) _____ , throughwhichaviewer , locatedatthecenterofpro- jection , see the world .
+Answer: thisrectangleactsasawindow
+
+(Fill-in-the-Blank) _____ the location of the center of projection , the location 1.6 theprogrammersinterface 21 figure1.18 imagingwiththesyntheticcamera .
+Answer: given
+
+(Fill-in-the-Blank) 1.6 the _____ interface there are numerous way that a user can interact with a graphic system .
+Answer: programmer
+
+(Fill-in-the-Blank) _____ completelyself-containedpackages , suchastheonesusedinthecadcommunity , a userdevelopsimagesthroughinteractions_____thedisplayusinginputdevices , such a a mouse and a keyboard .
+Answer: with
+
+(Fill-in-the-Blank) in a _____ application , such a the painting program showninfigure1.20 , theuserseesmenusandiconsthatrepresentpossibleactions .
+Answer: typical
+
+(Fill-in-the-Blank) 22 chapter1 _____ figure1.20 interfaceforapaintingprogram .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) _____ graphic application library driver mouse program ( api ) display figure1.21 applicationprogrammersmodelofgraphicssystem .
+Answer: keyboard
+
+(Fill-in-the-Blank) of _____ , someone ha to develop the code for these application , and many ofus , despitethesophisticationofcommercialproducts , stillhavetowriteourown graphicsapplicationprograms ( andevenenjoydoingso ) .
+Answer: course
+
+(Fill-in-the-Blank) the _____ between an application program and a graphic system can be specified through a set of function that resides in a graphic library .
+Answer: interface
+
+(Fill-in-the-Blank) _____ speci- ficationsarecalledtheapplicationprogrammersinterface ( api ) .theapplication programmersmodelofthesystemisshowninfigure1.21.theapplicationprogram- merseesonlytheapiandisthusshieldedfromthedetailsofboththehardwareand thesoftwareimplementationofthegraphicslibrary.thesoftwaredriversarerespon- sibleforinterpretingtheoutputoftheapiandconverting_____datatoaformthat is understood by the particular hardware .
+Answer: these
+
+(Fill-in-the-Blank) _____ the perspective of the writer of an 1.6 theprogrammersinterface 23 applicationprogram , thefunctionsavailablethroughtheapishouldmatchthecon- ceptualmodelthattheuserwishestoemploytospecifyimages.7 1.6.1 the pen-plotter model historically , mostearlygraphicssystemsweretwo-dimensionalsystems.theconcep- tualmodelthattheyusedisnowreferredtoasthepen-plottermodel , referencingthe outputdevicethatwasavailableonthesesystems.apenplotter ( figure1.22 ) pro- figure1.22 penplotter .
+Answer: from
+
+(Fill-in-the-Blank) _____ , astructurethatcanmovethepenin twoorthogonaldirectionsacrossthepaper.theplottercanraiseandlowerthepenas requiredtocreatethedesiredimage.penplottersarestillinuse ; theyarewellsuited for drawing large diagram , such a blueprint .
+Answer: ducesimagesbymovingapenheldbyagantry
+
+(Fill-in-the-Blank) _____ apissuch a logo and postscripthavetheiroriginsinthismodel.althoughtheydifferfromoneanother , theyhaveacommonviewoftheprocessofcreatinganimageasbeingsimilartothe processofdrawingonapadofpaper.theuserworksonatwo-dimensionalsurface ofsomesize.shemovesapenaroundonthissurface , leavinganimageonthepaper .
+Answer: various
+
+(Fill-in-the-Blank) _____ : moveto ( x , y ) lineto ( x , y ) executionofthemovetofunctionmovesthepentothelocation ( x , y ) onthepaper withoutleavingamark.thelinetofunctionmovesthepento ( x , y ) anddrawsa line from the old to the new location of the pen .
+Answer: wecandescribesuchagraphicssystemwiththefollowingdrawingfunctions
+
+(Fill-in-the-Blank) _____ we add a few initialization andterminationprocedures , aswellastheabilitytochangepenstoalterthedrawing colororlinethickness , wehaveasimplebutcompletegraphicssystem.hereisa fragmentofasimpleprograminsuchasystem : moveto ( 0 , 0 ) ; lineto ( 1 , 0 ) ; lineto ( 1 , 1 ) ; lineto ( 0 , 1 ) ; lineto ( 0,0 ) ; thisfragmentwouldgeneratetheoutputshowninfigure1.23 ( a ) .ifweaddedthe code moveto ( 0 , 1 ) ; lineto ( 0.5 , 1.866 ) ; lineto ( 1.5 , 1.866 ) ; lineto ( 1.5 , 0.866 ) ; 7.theremaybeoneormoreadditionallayersbetweentheapiandthedriver , suchasavirtual machineorhardwareabstractionlayer.however , becausetheapplicationprogrammerseesonlythe api , shedoesnotneedtoknowthislevelofdetail .
+Answer: once
+
+(Fill-in-the-Blank) 24 chapter1 _____ lineto ( 1 , 0 ) ; moveto ( 1 , 1 ) ; lineto ( 1,5,1.866 ) ; we would have the image of a cube formed by an oblique projection , a shown in figure1.23 ( b ) .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) ( a ) for _____ application , such a page layout in the printing industry , system builtonthismodelworkwell.forexample , thepostscriptpage-descriptionlanguage , asophisticatedextensionoftheseideas , isastandardforcontrollingtypesettersand printer .
+Answer: certain
+
+(Fill-in-the-Blank) an _____ raster-based , but still limiting , two-dimensional model relies on writingpixelsdirectlyintoaframebuffer.suchasystemcouldbebasedonasingle functionoftheform writepixel ( x , y , color ) ( b ) wherex , yisthelocationofthepixelintheframebufferandcolorgivesthecolor figure1.23 outputofpen- tobewrittenthere.suchmodelsarewellsuitedtowritingthealgorithmsforrasteri- plotter program for ( a ) a zationandprocessingofdigitalimages .
+Answer: alternate
+
+(Fill-in-the-Blank) _____ , and ( b ) a projection we are much more interested , however , in the three-dimensional world .
+Answer: square
+
+(Fill-in-the-Blank) pen-_____-dimensionalgraphicssystems.for example , if we wish to use the pen-plotter model to produce the image of a three- dimensionalobjectonourtwo-dimensionalpad , eitherbyhandorbycomputer , then wehavetofigureoutwhereonthepagetoplacetwo-dimensionalpointscorrespond- ing to point on our three-dimensional object .
+Answer: plottermodeldoesnotextendwelltothree
+
+(Fill-in-the-Blank) _____ two-dimensional point are , aswesawinsection1.5 , theprojectionsofpointsinthree-dimensionalspace.the mathematicalprocessofdeterminingprojectionsisanapplicationoftrigonometry .
+Answer: these
+
+(Fill-in-the-Blank) we _____ the mathematics of projection in chapter 5 ; understanding projection is crucial to understanding three-dimensional graphic .
+Answer: develop
+
+(Fill-in-the-Blank) we _____ , however , to use anapithatallowsuserstoworkdirectlyinthedomainoftheirproblemsandtouse computerstocarryoutthedetailsoftheprojectionprocessautomatically , withoutthe usershavingtomakeanytrigonometriccalculationswithintheapplicationprogram .
+Answer: prefer
+
+(Fill-in-the-Blank) _____ projectionsonadraftingboardorsketchingobjectsinperspective.moreimportant , userscanrelyonhardwareandsoftwareimplementationsofprojectionswithinthe implementationoftheapithatarefarmoreefficientthananypossibleimplementa- tionofprojectionswithintheirprogramswouldbe .
+Answer: thatapproachshouldbeaboontouserswhohavedifficultylearningtodrawvarious
+
+(Fill-in-the-Blank) 1.6.2 _____-dimensional apis thesynthetic-cameramodelisthebasisforallthepopularapis , includingopengl , direct3d , andopenscenegraph.ifwearetofollowthesynthetic-cameramodel , we needfunctionsintheapitospecifythefollowing : object aviewer 1.6 theprogrammersinterface 25 lightsources y materialproperties object are usually defined by set of vertex .
+Answer: three
+
+(Fill-in-the-Blank) for _____ geometric object b such a line segment , rectangle , and polygonsthere is a _____ relationship be- tween a list of vertex , or position in space , and the object .
+Answer: simple
+
+(Fill-in-the-Blank) for _____ complex object , theremaybemultiplewaysofdefiningtheobjectfromasetofvertices.acir- cle , forexample , canbedefinedbythreepointsonitscircumference , orbyitscenter andonepointonthecircumference .
+Answer: more
+
+(Fill-in-the-Blank) a _____.theseprimitives x are usually those that can be displayed rapidly on the hardware .
+Answer: mostapisprovidesimilarsetsofprimitiveobjectsfortheuser
+
+(Fill-in-the-Blank) the _____ set in- cludepoints , linesegments , polygon , andsometimestext.openglprogramsdefine c primitive through list of vertex .
+Answer: usual
+
+(Fill-in-the-Blank) the _____ opengl code fragment specifies z thetriangularpolygonshowninfigure1.24throughfivefunctioncalls : figure1.24 atriangle .
+Answer: following
+
+(Fill-in-the-Blank) _____ ( glpolygon ) ; glvertex3f ( 0.0 , 0.0 , 0.0 ) ; vertex a glvertex3f ( 0.0 , 1.0 , 0.0 ) ; vertex b glvertex3f ( 0.0 , 0.0 , 1.0 ) ; vertex c glend ( ) ; thefunction_____specifiesthetypeofprimitivethattheverticesdefine.each subsequentexecutionofglvertex3fspecifiesthex , y , z coordinatesofalocation inspace.thefunctionglendendsthelistofvertices.notethatbyaddingadditional vertex , we can define an arbitrary polygon .
+Answer: glbegin
+
+(Fill-in-the-Blank) if we _____ the type parameter , gl polygon , we can use the same vertex to define a different geometric primitive .
+Answer: change
+
+(Fill-in-the-Blank) for _____ , the type gllinestrip us the vertex to define two connected line segment , whereas the type glpoints us the same vertex to define three w point .
+Answer: example
+
+(Fill-in-the-Blank) cop _____ that read and write pixel .
+Answer: someapislettheuserworkdirectlyintheframebufferbyprovidingfunctions
+
+(Fill-in-the-Blank) _____ apis provide curve and surface a primitive ; h often , however , thesetypesareapproximatedbyaseriesofsimplerprimitiveswithin the application program .
+Answer: some
+
+(Fill-in-the-Blank) _____ provides access to the frame buffer , curve , and surface .
+Answer: opengl
+
+(Fill-in-the-Blank) _____.availableapisdifferin how much flexibility they provide in camera selection and in how many different methodstheyallow.ifwelookatthecamerashowninfigure1.25 , wecanidentify figure1.25 camera fourtypesofnecessaryspecifications : specification .
+Answer: wecanspecifyaviewerorcamerainavarietyofways
+
+(Fill-in-the-Blank) 2. _____ once we have positioned the camera , we can place a camera coordinate system with it origin at the center of projection .
+Answer: orientation
+
+(Fill-in-the-Blank) 26 chapter1 _____ 4. filmplane thebackofthecamerahasaheightandawidth.onthebellows camera , andinsomeapis , theorientationofthebackofthecameracanbe adjustedindependentlyoftheorientationofthelens .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) _____ specification can be satisfied in various way .
+Answer: these
+
+(Fill-in-the-Blank) one way to _____ the specification for the camera location and orientation us a series of coordinate- systemtransformations.thesetransformationsconvertobjectpositionsrepresented inacoordinatesystemthatspecifiesobjectverticestoobjectpositionsinacoordinate systemcenteredatthecop.thisapproachisuseful , bothforimplementingandfor gettingthefullsetofviewsthataflexiblecameracanprovide.weusethisapproach extensively , startinginchapter5 .
+Answer: develop
+
+(Fill-in-the-Blank) _____ , however , canalsomakeitdifficulttogeta desired image .
+Answer: havingmanyparameterstoadjust
+
+(Fill-in-the-Blank) _____ of the problem lie with the synthetic-camera model .
+Answer: part
+
+(Fill-in-the-Blank) _____ viewing technique , such a the one used in architecture , stress the relationship betweentheobjectandtheviewer , ratherthantheindependence thatthesynthetic- cameramodelemphasizes.thus , the_____two-pointperspectiveofacubeshown infigure1.26isatwo-point perspectivebecauseofaparticularrelationshipbetween theviewerandtheplanesofthecube ( seeexercise1.7 ) .althoughtheopenglapi allowsustosettransformationswithcompletefreedom , italsoprovideshelpfulextra functions.forexample , considerthefollowingfunctioncalls : glulookat ( copx , copy , copz , atx , aty , atz , upx , upy , upz ) ; glperspective ( fieldofview , aspectratio , near , far ) ; thefirstfunctioncallpointsthecamerafromacenterofprojectiontowardadesired point ( theat point ) , withaspecifiedupdirectionforthecamera.thesecondselects a lens for a perspective view ( the field of view ) and how much of the world that thecamerashouldimage ( theaspectratioandthenear andfar distance ) .however , noneoftheapisbuiltonthesynthetic-cameramodelprovidefunctionsfordirectly specifyingadesiredrelationshipbetweenthecameraandanobject .
+Answer: classical
+
+(Fill-in-the-Blank) _____ source are defined by their location , strength , color , and directionality .
+Answer: light
+
+(Fill-in-the-Blank) _____.material property are characteristic , or attribute , of the object , and such property are specified through a series of function call at the time that each object is defined .
+Answer: apisprovideasetoffunctionstospecifytheseparametersforeachsource
+
+(Fill-in-the-Blank) _____ light source and material property depend on the model of lightmaterial interactionssupportedbytheapi.wediscusssuchmodelsinchapter6 .
+Answer: both
+
+(Fill-in-the-Blank) 1.6 _____ 27 1.6.3 a sequence of image inchapter2 , webeginourdetaileddiscussionoftheopenglapithatwewilluse throughoutthisbook.theimagesdefinedbyyouropenglprogramswillbeformed automaticallybythehardwareandsoftwareimplementationoftheimage-formation process .
+Answer: theprogrammersinterface
+
+(Fill-in-the-Blank) we _____ these image a an increasingly more complex series of rendering of the same object .
+Answer: present
+
+(Fill-in-the-Blank) the _____ not only loosely follows the order in whichwepresentrelatedtopicsbutalsoreflectshowgraphicssystemshavedeveloped overthepast30years .
+Answer: sequence
+
+(Fill-in-the-Blank) colorplate1showsanimageofanartistscreationofasun-_____.color plate2showstheobjectrenderedusingonlylinesegments.althoughtheobjectcon- sistsofmanyparts , andalthoughtheprogrammermayhaveusedsophisticateddata structure to model each part and the relationship among the part , the rendered objectshowsonlytheoutlinesoftheparts.thistypeofimageisknownasawire- frameimagebecausewecanseeonlytheedgesofsurfaces : suchanimagewouldbe producediftheobjectswereconstructedwithstiffwiresthatformedaframewithno solid material between the edge .
+Answer: likeobject
+
+(Fill-in-the-Blank) _____ raster-graphics system became available , wireframe image were the only type of computer-generated image that we could produce .
+Answer: before
+
+(Fill-in-the-Blank) incolorplate3 , _____.certain surfacesarenotvisiblebecausethereisasolidsurfacebetweenthemandtheviewer ; these surface have been removed by a hidden-surfaceremoval ( hsr ) algorithm .
+Answer: thesameobjecthasbeenrenderedwithflatpolygons
+
+(Fill-in-the-Blank) _____ raster system can fill the interior of polygon with a solid color in approxi- matelythesametimethattheycanrenderawireframeimage.althoughtheobjects arethreedimensional , eachsurfaceisdisplayedinasinglecolor , andtheimagefailsto showthethree-dimensionalshapesoftheobjects.earlyrastersystemscouldproduce imagesofthisform .
+Answer: most
+
+(Fill-in-the-Blank) in _____ 2 and 3 , we will show you how to generate image composed of simple geometric objectspoints , line segment , and polygon .
+Answer: chapter
+
+(Fill-in-the-Blank) in _____ 4 and 5 , youwilllearnhowtotransformobjectsinthreedimensionsandhowtoobtaina desiredthree-dimensionalviewofamodel , withhiddensurfacesremoved .
+Answer: chapter
+
+(Fill-in-the-Blank) _____ plate 4 illustrates smooth shading of the polygon that approximate the object ; it show that the object is three dimensional and give the appearance of a smoothsurface.wedevelopshadingmodelsthataresupportedbyopenglinchap- ter6.theseshadingmodelsarealsosupportedinthehardwareofmostrecentwork- station ; generating the shaded image on one of these system take approximately thesameamountoftimeasdoesgeneratingawireframeimage .
+Answer: color
+
+(Fill-in-the-Blank) _____ plate 5 show a more sophisticated wireframe model constructed using nurbssurfaces , whichweintroduceinchapter12.suchsurfacesgivetheapplica- tion programmer great flexibility in the design process but are ultimately rendered usinglinesegmentsandpolygons .
+Answer: color
+
+(Fill-in-the-Blank) in _____ plate 6 and 7 , we add surface texture to our object ; texture is one of the effect that we discus in chapter 8. all recent graphic processor support 28 chapter1 graphicssystemsandmodels texturemappinginhardware , sorenderingofatexture-mappedimagerequireslittle additionaltime.in_____plate6 , weuseatechniquecalledbumpmapping thatgives theappearanceofaroughsurfaceeventhoughwerenderthesameflatpolygonsasin theotherexamples._____plate7showsanenvironmentmapappliedtothesurfaceof theobject , whichgivesthesurfacetheappearanceofamirror.thesetechniqueswill bediscussedindetailinchapters8and9 .
+Answer: color
+
+(Fill-in-the-Blank) colorplate8showsasmallareaoftherenderingoftheobjectusinganenviron- _____.theimageontheleftshowsthejaggedartifactsknownasaliasingerrors thatareduetothediscretenatureoftheframebuffer.theimageontherighthasbeen renderedusingasmoothingorantialiasingmethodthatwewillstudyinchapters7 and8 .
+Answer: mentmap
+
+(Fill-in-the-Blank) in _____ , just a the image show incremental change in the rendering , the programsareincrementallydifferentfromoneanother .
+Answer: addition
+
+(Fill-in-the-Blank) 1.6.4 the _____ paradigm inmanysituationsespeciallyincadapplicationsandinthedevelopmentofcom- pleximages , suchasformovieswecanseparatethemodelingofthescenefromthe productionoftheimage , ortherenderingofthescene.hence , wecanlookatim- ageformationasthetwo-stepprocessshowninfigure1.27.althoughthetasksare thesameasthosewehavebeendiscussing , thisblockdiagramsuggeststhatwemight implementthemodelerandtherendererwithdifferentsoftwareandhardware.for example , considertheproductionofasingleframeinananimation.wefirstwantto designandpositionourobjects.thisstepishighlyinteractive , andwedonotneed toworkwithdetailedimagesoftheobjects.consequently , weprefertocarryoutthis steponaninteractiveworkstationwithgoodgraphicshardware.oncewehavede- signedthescene , wewanttorenderit , addinglightsources , materialproperties , and avarietyofotherdetailedeffects , toformaproduction-qualityimage.thisstepre- quiresatremendousamountofcomputation , soweprefertouseahigh-performance clusterorarenderfarm.notonlyistheoptimalhardwaredifferentinthemodeling andrenderingsteps , butthesoftwarethatweusealsomaybedifferent .
+Answer: modelingrendering
+
+(Fill-in-the-Blank) _____- ducedbythemodelerthatdescribestheobjectsandthatcontainsadditionalinfor- mation important only to the renderer , such a light source , viewer location , and materialproperties.pixarsrendermaninterfacefollowsthisapproachandusesafile interface file modeler renderer figure1.27 themodelingrenderingpipeline .
+Answer: theinterfacebetweenthemodelerandrenderercanbeassimpleasafilepro
+
+(Fill-in-the-Blank) 1.7 _____ 29 format that allows modeler to pas model to the renderer in text format .
+Answer: graphicsarchitectures
+
+(Fill-in-the-Blank) one of the _____ advantage of this approach is that it allows u to develop modeler that , althoughtheyusethesamerenderer , aretailoredtoparticularapplications.likewise , differentrendererscantakeasinputthesameinterfacefile.itisevenpossible , atleast inprinciple , todispensewiththemodelercompletelyandtouseastandardtexteditor togenerateaninterfacefile.foranybutthesimplestscenes , however , userscannot edit list of information for a renderer .
+Answer: other
+
+(Fill-in-the-Blank) _____ , they use interactive modeling soft- ware.becausewemusthaveatleastasimpleimageofourobjectstointeractwitha modeler , mostmodelersusethesynthetic-cameramodeltoproducetheseimagesin realtime .
+Answer: rather
+
+(Fill-in-the-Blank) _____- gram such a maya and lightwave are used interactively to build character using wireframesorunlitpolygons.finalrenderingcantakehoursperframe .
+Answer: itisalsothestandardmethodusedintheanimationindustrywhereinteractivepro
+
+(Fill-in-the-Blank) 1.7 _____ architecture ononesideoftheapiistheapplicationprogram.ontheothersideissomecom- bination of hardware and software that implement the functionality of the api .
+Answer: graphic
+
+(Fill-in-the-Blank) _____ have taken various approach to developing architecture to support graphicsapis .
+Answer: researcher
+
+(Fill-in-the-Blank) _____-purposecomputerswiththestandardvon neumannarchitecture.suchcomputersarecharacterizedbyasingleprocessingunit thatprocessesasingleinstructionatatime.asimplemodeloftheseearlygraphics system is shown in figure 1.28. the display in these system wa based on a calli- graphiccrtdisplaythatincludedthenecessarycircuitrytogeneratealinesegment connectingtwopoints.thejobofthehostcomputerwastoruntheapplicationpro- gramandtocomputetheendpointsofthelinesegmentsintheimage ( inunitsofthe display ) .thisinformationhadtobesenttothedisplayataratehighenoughtoavoid flickeronthedisplay.intheearlydaysofcomputergraphics , computersweresoslow thatrefreshingevensimpleimages , containingafewhundredlinesegments , would burdenanexpensivecomputer .
+Answer: earlygraphicssystemsusedgeneral
+
+(Fill-in-the-Blank) _____ host to analog figure1.28 earlygraphicssystem .
+Answer: digital
+
+(Fill-in-the-Blank) 30 chapter1 _____ display host processor display list figure1.29 display-processorarchitecture .
+Answer: graphicssystemsandmodels
+
+(Fill-in-the-Blank) 1.7.1 _____ processor theearliestattemptstobuildspecial-purposegraphicssystemswereconcernedpri- marilywithrelievingthegeneral-purposecomputerfromthetaskofrefreshingthe _____continuously.these_____processorshadconventionalarchitectures ( fig- ure1.29 ) butincludedinstructionsto_____primitivesonthecrt.themainad- vantageofthe_____processorwasthattheinstructionstogeneratetheimagecould be assembled once in the host and sent to the _____ processor , where they were storedinthe_____processorsownmemoryasa_____list , or_____file.the _____processorwouldthenexecuterepetitivelytheprograminthe_____list , at aratesufficienttoavoidflicker , independentlyofthehost , thusfreeingthehostfor othertasks.thisarchitecturehasbecomecloselyassociatedwiththeclientserverar- chitecturesthatwewilldiscussinchapter3 .
+Answer: display
+
+(Fill-in-the-Blank) 1.7.2 _____ architecture themajoradvancesingraphicsarchitecturescloselyparalleltheadvancesinwork- stations.inbothcases , theabilitytocreatespecial-purposevlsichipswasthekey enablingtechnologydevelopment.inaddition , theavailabilityofinexpensivesolid- statememoryledtotheuniversalityofrasterdisplays.forcomputer-graphicsappli- cation , themostimportantuseofcustomvlsicircuitshasbeenincreating_____ architecture .
+Answer: pipeline
+
+(Fill-in-the-Blank) _____.asthechassispassesdown the line , a series of operation is performed on it , each using specialized tool and worker , untilattheend , theassemblyprocessiscomplete.atanyonetime , multiple carsareunderconstructionandthereisasignificantdelayorlatencybetweenwhen achassisstartsdowntheassemblylineandthefinishedvehicleiscomplete.however , thenumberofcarsproducedinagiventime , thethroughput , ismuchhigherthanif asingleteambuilteachcar .
+Answer: pipeliningissimilartoanassemblylineinacarplant
+
+(Fill-in-the-Blank) the _____ of pipelining is illustrated in figure 1.30 for a simple arithmetic calculation.inourpipeline , thereisanadderandamultiplier.ifweusethisconfigu- rationtocomputea ( bc ) , thenthecalculationtakesonemultiplicationandone additionthe same amount of work required if we use a single processor to carry outbothoperations.however , supposethatwehavetocarryoutthesamecomputa- 1.7 graphicsarchitectures 31 a b c figure1.30 arithmeticpipeline .
+Answer: concept
+
+(Fill-in-the-Blank) _____ clipper and fragment _____ rasterizer pixel processor primitive assembler processor figure1.31 geometricpipeline .
+Answer: vertex
+
+(Fill-in-the-Blank) _____ , b , andc.now , themultipliercanpassontheresultsofits calculationtotheadderandcanstartitsnextmultiplicationwhiletheaddercarries outthesecondstepofthecalculationonthefirstsetofdata.hence , whereasittakes thesameamountoftimetocalculatetheresultsforanyonesetofdata , whenweare workingontwosetsofdataatonetime , ourtotaltimeforcalculationisshortened markedly.heretherateatwhichdataflowsthroughthesystem , thethroughputofthe system , hasbeendoubled.notethatasweaddmoreboxestoapipeline , thelatency ofthesystemincreasesandwemustbalancelatencyagainstincreasedthroughputin evaluatingtheperformanceofapipeline .
+Answer: tionwithmanyvaluesofa
+
+(Fill-in-the-Blank) we can _____ pipeline for more complex arithmetic calculation that will affordevengreaterincreasesinthroughput.ofcourse , thereisnopointinbuilding a pipeline unless we will do the same operation on many data set .
+Answer: construct
+
+(Fill-in-the-Blank) but _____ is just whatwedoincomputergraphics , wherelargesetsofverticesmustbeprocessedin thesamemanner .
+Answer: that
+
+(Fill-in-the-Blank) 1.7.3 the _____ pipeline westartwithasetofobjects.eachobjectcomprisesasetof_____alprimitives.each primitivecomprisesasetofvertices.wecanthinkofthecollectionofprimitivetypes andverticesasdefiningthegeometryofthescene.inacomplexscene , theremaybe thousandseven millionsof vertex that define the object .
+Answer: graphic
+
+(Fill-in-the-Blank) we _____ process all theseverticesinasimilarmannertoformanimageintheframebuffer.ifwethinkin termsofprocessingthegeometryofourobjectstoobtainanimage , wecanemploy theblockdiagraminfigure1.31 , whichshowsthefourmajorstepsintheimaging process : 1. vertexprocessing 2. clippingandprimitiveassembly 3. rasterization 4. fragmentprocessing 32 chapter1 graphicssystemsandmodels insubsequentchapters , wediscussthedetailsofthesesteps.herewearecontentto overviewthesestepsandshowthattheycanbepipelined .
+Answer: must
+
+(Fill-in-the-Blank) 1.7.4 _____ processing in the first block of our pipeline , each _____ is processed independently .
+Answer: vertex
+
+(Fill-in-the-Blank) the two _____ function of this block are to carry out coordinate transformation and to computeacolorforeachvertex .
+Answer: major
+
+(Fill-in-the-Blank) _____- tweenrepresentationsofobjectsindifferentcoordinatesystems.forexample , inthe syntheticcameraparadigm , amajorpartofviewingistoconverttoarepresentation ofobjectsfromthesysteminwhichtheyweredefinedtoarepresentationinterms ofthecoordinatesystemofthecamera.afurtherexampleofatransformationarises whenwefinallyputourimagesontotheoutputdevice.theinternalrepresentationof objectswhetherinthecameracoordinatesystemorperhapsinasystemusedbythe graphicssoftwareeventuallymustberepresentedintermsofthecoordinatesystem ofthedisplay.wecanrepresenteachchangeofcoordinatesystemsbyamatrix.we canrepresentsuccessivechangesincoordinatesystemsbymultiplying , orconcate- nating , theindividualmatricesintoasinglematrix.inchapter4 , weexaminethese operationsindetail.becausemultiplyingonematrixbyanothermatrixyieldsathird matrix , asequenceoftransformationsisanobviouscandidateforapipelinearchitec- ture.inaddition , becausethematricesthatweuseincomputergraphicswillalways besmall ( 44 ) , wehavetheopportunitytouseparallelismwithinthetransforma- tionblocksinthepipeline .
+Answer: manyofthestepsintheimagingprocesscanbeviewedastransformationsbe
+
+(Fill-in-the-Blank) _____ , aftermultiplestagesoftransformation , thegeometryistransformed byaprojectiontransformation.inchapter5 , weseethatwecanimplementthisstep using 4 4 matrix , and thus projection fit in the pipeline .
+Answer: eventually
+
+(Fill-in-the-Blank) in _____ , we want to keep three-dimensional information a long a possible , a object pas through thepipeline.consequently , theprojectiontransformationissomewhatmore_____ than the projection in section 1.5. in addition to retaining three-dimensional in- formation , thereisavarietyofprojectionsthatwecanimplement.wewillseethese projectionsinchapter5 .
+Answer: general
+
+(Fill-in-the-Blank) the _____ of vertex color can be a simple a the program specifying a colororascomplexasthecomputationofacolorfromaphysicallyrealisticlighting model that incorporates the surface property of the object and the characteristic lightsourcesinthescene.wewilldiscusslightingmodelsinchapter6 .
+Answer: assignment
+
+(Fill-in-the-Blank) 1.7.5 _____ and primitive assembly the second fundamental block in the implementation of the standard graphic pipelineisfor_____andprimitiveassembly.wemustdo_____becauseofthe limitationthatnoimagingsystemcanseethewholeworldatonce.thehumanretina hasalimitedsizecorrespondingtoanapproximately90-degreefieldofview.cameras havefilmoflimitedsize , andwecanadjusttheirfieldsofviewbyselectingdifferent lens .
+Answer: clipping
+
+(Fill-in-the-Blank) 1.8 _____ 33 weobtaintheequivalentpropertyinthesyntheticcamerabyconsideringaclip- pingvolume , suchasthepyramidinfrontofthelensinfigure1.18.theprojections of object in this volume appear in the image .
+Answer: programmablepipelines
+
+(Fill-in-the-Blank) _____ that are outside do not and aresaidtobeclippedout.objectsthatstraddletheedgesoftheclippingvolumeare partlyvisibleintheimage.efficientclippingalgorithmsaredevelopedinchapter7 .
+Answer: those
+
+(Fill-in-the-Blank) _____ , within this stage of the pipeline , we must assemble set of verticesintoprimitives , suchaslinesegmentsandpolygons , beforeclippingcantake place.consequently , theoutputofthisstageisasetofprimitiveswhoseprojections canappearintheimage .
+Answer: thus
+
+(Fill-in-the-Blank) 1.7.6 _____ the primitive that emerge from the clipper are still represented in term of their vertex and must be further processed to generate pixel in the frame buffer .
+Answer: rasterization
+
+(Fill-in-the-Blank) for _____ , if three vertex specify a triangle filled with a solid color , the rasterizer mustdeterminewhichpixelsintheframebufferareinsidethepolygon.wediscuss this rasterization ( or scan-conversion ) process in chapter 8 for line segment and polygon .
+Answer: example
+
+(Fill-in-the-Blank) the _____ of the rasterizer is a set of fragment for each primitive .
+Answer: output
+
+(Fill-in-the-Blank) a _____ can be thought of a a potential pixel that carry with it information , including it color and location , that is used to update the corresponding pixel in theframebuffer._____scanalsocarryalongdepthinformationthatallowslater stage to determine if a particular _____ lie behind other previously rasterized _____sforagivenpixel .
+Answer: fragment
+
+(Fill-in-the-Blank) 1.7.7 _____ processing thefinalblockinourpipelinetakesinthe_____sgeneratedbytherasterizerand updatesthepixelsintheframebuffer.iftheapplicationgeneratedthree-dimensional data , some _____ may not be visible because the surface that they define are behind other surface .
+Answer: fragment
+
+(Fill-in-the-Blank) the _____ of a fragment may be altered by texture mapping or bump mapping a shown in _____ plate 6 and 7. the _____ of the pixel that correspondstoafragmentcanalsobereadfromtheframebufferandblendedwith the fragment _____ to create translucent effect .
+Answer: color
+
+(Fill-in-the-Blank) _____ effect will be covered in chapters8and9 .
+Answer: these
+
+(Fill-in-the-Blank) 1.8 _____ pipeline graphic architecture have gone through multiple cycle in which the importance of special-purpose hardware relative to standard cpu ha gone back and forth .
+Answer: programmable
+
+(Fill-in-the-Blank) _____ , theimportanceofthepipelinearchitecturehasremainedregardlessofthis cycle.noneoftheotherapproachesraytracing , radiosity , photonmappingleads toreal-timeperformance.hence , thecommoditygraphicsmarketisdominatedby graphicscardsthathavepipelinesbuiltintothegraphicsprocessingunit.allofthese 34 chapter1 graphicssystemsandmodels commodity card implement the pipeline that we have just described , albeit with moreoptions , manyofwhichwewilldiscussinlaterchapters .
+Answer: however
+
+(Fill-in-the-Blank) _____ , thesepipelinearchitectureshadafixedfunctionality.although the application program could set many parameter , the basic operation available within the pipeline were fixed .
+Answer: formanyyears
+
+(Fill-in-the-Blank) for _____ , there wa only one lighting model for howtocomputeashadeusingthespecifiedlightsourcesandmaterials .
+Answer: example
+
+(Fill-in-the-Blank) _____ , therehasbeenamajoradvanceinpipelinearchitectures.boththever- tex processor and the fragment processor are now programable by the application program.oneofthemostexcitingaspectsofthisadvanceisthatmanyofthetech- niquesthatformerlycouldnotbedoneinrealtimebecausetheywerenotpartofthe fixed-functionpipelinecannowbedoneinrealtime .
+Answer: recently
+
+(Fill-in-the-Blank) _____ thepipeline.thus , wecanimplementavarietyoflight-materialmodelsorcreatenew kindsofprojections.fragmentprogramsallowustousetexturesinnewways.bump mapping , which is illustrated in color plate 6 , is but one example of an algorithm thatisnowprogrammablethroughtexturemappingbutformerlycouldonlybedone off-line.chapter9isdevotedtothesenewmethodologies .
+Answer: vertexprogramscanalterthelocationorcolorofeachvertexasitflowsthrough
+
+(Fill-in-the-Blank) 1.9 _____ characteristic therearetwofundamentallydifferenttypesofprocessinginourpipelinearchitec- ture .
+Answer: performance
+
+(Fill-in-the-Blank) at the _____ end , there is geometric processing , based on processing vertex throughthevarioustransformations , vertexshading , clipping , andprimitiveassem- bly.thisprocessingisideallysuitedforpipelining , anditusuallyinvolvesfloating- point calculation .
+Answer: front
+
+(Fill-in-the-Blank) the _____ engine developed by silicon graphic , inc. ( sgi ) wasavlsiimplementationformanyoftheseoperationsinaspecial-purposechip thatbecamethebasisforaseriesoffastgraphicsworkstations.later , floating-point accelerator chip put 4 4 matrix-transformation unit on the chip , reducing a matrixmultiplicationtoasingleinstruction.today , graphicsworkstationsandcom- moditygraphicscardsusegraphicsprocessingunits ( gpus ) thatperformmostofthe graphicsoperationsatthechiplevel.pipelinearchitecturesarethedominanttypeof high-performancesystem .
+Answer: geometry
+
+(Fill-in-the-Blank) _____ , processinginvolvesadirectmanipulationofbitsintheframebuffer.thisback-end processingisfundamentallydifferentfromfront-endprocessing , andweimplement it most effectively using architecture that have the ability to move block of bit quickly .
+Answer: beginningwithrasterizationandincludingmanyfeaturesthatwediscusslater
+
+(Fill-in-the-Blank) the _____ performance of a system is characterized by how fast we can move geometric entity through the pipeline and by how many pixel per second wecanalterintheframebuffer.consequently , thefastestgraphicsworkstationsare characterizedbyoneormoregeometricpipelinesatthefrontendsandparallelbit processor at the back end .
+Answer: overall
+
+(Fill-in-the-Blank) _____ about 10 year ago , there wa a clear distinction between front- and back-end processing and there were different component and boardsdedicatedtoeach.now , commoditygraphicscardsusegpusthatcontainthe summaryandnotes 35 entirepipelinewithinasinglechip.thelatestcardsimplementtheentirepipelineus- ingfloating-pointarithmeticandhavefloating-pointframebuffers.thesegpusare sopowerfulthattheyarebeingusedforpurposesotherthangraphicsapplications .
+Answer: until
+
+(Fill-in-the-Blank) _____ architecture dominate the graphic field , especially where real-time performance is of importance .
+Answer: pipeline
+
+(Fill-in-the-Blank) our _____ ha made a case for using such anarchitecturetoimplementthehardwareinasystem.commoditygraphicscards incorporatethepipelinewithintheirgpus.cardsthatcostlessthan100canrender millionsofshadedtexture-mappedpolygonspersecond.however , wecanalsomake asstrongacaseforpipeliningbeingthebasisofacompletesoftwareimplementation ofanapi.thepowerofthesynthetic-cameraparadigmisthatthelatterworkswell inbothcases .
+Answer: presentation
+
+(Fill-in-the-Blank) _____ , whererealismisimportant , othertypesofrendererscanperformbet- terattheexpenseofrequiringmorecomputationtime.pixarsrendermaninterface wascreatedtointerfacetheiroff-linerenderer.physicallybasedtechniques , suchas raytracingandradiosity , cancreatephotorealisticimageswithgreatfidelity , butnot inrealtime .
+Answer: however
+
+(Fill-in-the-Blank) _____-formationparadigms , eachofwhichhasapplica- bilityincomputergraphics.thesynthetic-cameramodelhastwoimportantconse- quencesforcomputergraphics.first , itstressestheindependenceoftheobjectsand thevieweradistinctionthatleadstoagoodwayoforganizingthefunctionsthat willbeinagraphicslibrary.second , itleadstothenotionofapipelinearchitecture , inwhicheachofthevariousstagesinthepipelineperformsdistinctoperationson geometricentities , thenpassesonthetransformedobjectstothenextstage .
+Answer: wedescribedmultipleimage
+
+(Fill-in-the-Blank) _____.thispara- digmisespeciallyusefulinunderstandingtheinteractionbetweenlightandmaterials thatisessentialtophysicalimageformation.becauseraytracingandotherphysically basedstrategiescannotrenderscenesinrealtime , wedeferfurtherdiscussionofthem untilchapter13 .
+Answer: wealsointroducedtheideaoftracingraysoflighttoobtainanimage
+
+(Fill-in-the-Blank) _____.astan- dard graphic workstation can generate million of line segment or polygon per secondataresolutionofupto12801024pixels.suchaworkstationcanshadethe polygonsusingasimpleshadingmodelandcandisplayonlyvisiblesurfacesatthis rate.however , realisticimagesmayrequirearesolutionofupto40006000pixels
+Answer: themodelingrenderingparadigmisbecomingincreasinglyimportant
+
